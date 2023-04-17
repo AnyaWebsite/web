@@ -59,7 +59,9 @@ body {
     border-left: 5px solid rgb(255, 255, 255);
     margin-left: 5px;
 }
-
+.description div h1::first letter {
+    border-left: 2px;
+}
 .description div p {
     color: rgb(168, 168, 168);
     margin-top: 10px;
